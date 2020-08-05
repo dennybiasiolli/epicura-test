@@ -1,0 +1,25 @@
+{
+  "name": "epicura-test",
+  "version": "0.0.1",
+  "description": "EpiCura Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dennybiasiolli/epicura-test.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "node",
+    "mongo"
+  ],
+  "author": "Denny Biasiolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennybiasiolli/epicura-test/issues"
+  },
+  "homepage": "https://github.com/dennybiasiolli/epicura-test#readme"
+}
