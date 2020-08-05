@@ -1,4 +1,7 @@
 const {
+  writeDataArrayWithoutException,
+} = require('./data');
+const {
   getOperationTasks,
   getDiscipline,
 } = require('./services');
@@ -13,9 +16,11 @@ const main = async () => {
     tasks.map(t => t.operationType));
   const uniqueDisciplineIds = getUniqueDisciplineIds(
     uniqueOperationTypes.map(t => t.discipline));
-  for (disciplineId of uniqueDisciplineIds) {
-    const discipline = await getDiscipline(disciplineId);
-  }
+  const disciplines = await Promise.all(uniqueDisciplineIds.map(
+    disciplineId => getDiscipline(disciplineId)));
+  // writing data to mongodb
+  writeDataArrayWithoutException('operationTypes', uniqueOperationTypes);
+  writeDataArrayWithoutException('disciplines', disciplines);
 };
 
 module.exports = { main };
