@@ -24,5 +24,8 @@
   "homepage": "https://github.com/dennybiasiolli/epicura-test#readme",
   "devDependencies": {
     "jest": "^26.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
   }
 }

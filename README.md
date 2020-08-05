@@ -1,6 +1,19 @@
 # EpiCura test
 
 
+#### Startup
+
+- clone this repository
+
+- install all dependencies with `npm install`
+
+- make a copy of `.env.default` file and adjust parameters as needed
+
+    `cp .env.default .env`
+
+- run app with `npm run start`
+
+
 #### Request
 
 Realizzare un progetto NodeJS che legga i dati restituiti dal servizio che
