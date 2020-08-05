@@ -13,6 +13,8 @@
 
 - run app with `npm run start`
 
+- run tests with `npm run test`
+
 
 #### Request
 

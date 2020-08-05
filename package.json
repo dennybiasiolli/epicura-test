@@ -4,6 +4,7 @@
   "description": "EpiCura Test",
   "main": "src/index.js",
   "scripts": {
+    "start": "node .",
     "test": "jest"
   },
   "repository": {
