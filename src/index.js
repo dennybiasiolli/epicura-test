@@ -1,4 +1,5 @@
-function sum(a, b) {
-  return a + b;
-}
-module.exports = sum;
+const { main } = require('./main');
+
+// reading dotenv file
+require('dotenv').config();
+main();
