@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/dennybiasiolli/epicura-test#readme",
   "devDependencies": {
-    "jest": "^26.2.2"
+    "jest": "^26.4.2"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.20.0",
     "dotenv": "^8.2.0",
-    "mongodb": "^3.6.0"
+    "mongodb": "^3.6.2"
   }
 }
